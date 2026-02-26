@@ -1,0 +1,50 @@
+[
+  {
+    "id": "srv-001",
+    "name": "Primary API Gateway",
+    "region": "af-south-1",
+    "status": "online",
+    "cpu": 34,
+    "uptime": "99.98%"
+  },
+  {
+    "id": "srv-002",
+    "name": "Auth Service",
+    "region": "eu-west-2",
+    "status": "online",
+    "cpu": 61,
+    "uptime": "99.91%"
+  },
+  {
+    "id": "srv-003",
+    "name": "Payment Processor",
+    "region": "us-east-1",
+    "status": "error",
+    "cpu": 89,
+    "uptime": "97.40%"
+  },
+  {
+    "id": "srv-004",
+    "name": "Media CDN Node",
+    "region": "ap-southeast-1",
+    "status": "offline",
+    "cpu": 0,
+    "uptime": "—"
+  },
+  {
+    "id": "srv-005",
+    "name": "Logging Aggregator",
+    "region": "af-south-1",
+    "status": "online",
+    "cpu": 22,
+    "uptime": "100%"
+  },
+  {
+    "id": "srv-006",
+    "name": "ML Inference Engine",
+    "region": "us-west-2",
+    "status": "online",
+    "cpu": 77,
+    "uptime": "99.85%"
+  }
+]

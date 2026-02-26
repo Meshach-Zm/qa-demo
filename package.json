@@ -1,0 +1,21 @@
+{
+  "name": "levelbuild-qa-demo",
+  "version": "1.0.0",
+  "description": "Cloud Server Dashboard — QA Automation Proof of Work",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "cypress:open": "cypress open --browser chrome --no-sandbox",
+    "cypress:run": "cypress run --browser chrome --no-sandbox"
+  },
+  "dependencies": {
+    "lit": "^3.1.0"
+  },
+  "devDependencies": {
+    "cypress": "^13.6.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "vite": "^5.0.0"
+  }
+}
