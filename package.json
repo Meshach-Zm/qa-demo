@@ -6,8 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "cypress:open": "cypress open --browser chrome --no-sandbox",
-    "cypress:run": "cypress run --browser chrome --no-sandbox"
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run"
   },
   "dependencies": {
     "lit": "^3.1.0"
