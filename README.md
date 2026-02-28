@@ -1,6 +1,6 @@
 # Cloud Server Dashboard — QA Automation Proof of Work
 
-> Built as a direct demonstration of the QA Automation Engineer skill set required at **Levelbuild Africa**.
+> A demonstration of the QA Automation *.
 
 ![CI](https://github.comMeshach-Zm/qa-demo/actions/workflows/cypress.yml/badge.svg)
 
