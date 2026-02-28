@@ -88,4 +88,4 @@ levelbuild-qa-demo/
 
 ---
 
-*Built by [Your Name] | [Your Email] | [LinkedIn]*
+Built by Misheck Zimba | zimbamisheck00@gmail.com | [[LinkedIn]](https://www.linkedin.com/in/meshachzimba/)
