@@ -2,7 +2,7 @@
 
 > Built as a direct demonstration of the QA Automation Engineer skill set required at **Levelbuild Africa**.
 
-![CI](https://github.com/YOUR_USERNAME/levelbuild-qa-demo/actions/workflows/cypress.yml/badge.svg)
+![CI](https://github.comMeshach-Zm/qa-demo/actions/workflows/cypress.yml/badge.svg)
 
 ---
 
