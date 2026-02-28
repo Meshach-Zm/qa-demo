@@ -37,34 +37,6 @@ npm run cypress:open
 npm run cypress:run
 ```
 
----
-
-## The Flaky Test Problem — and How I Solved It
-
-One of the most common QA failures in automation is the **arbitrary wait anti-pattern**:
-
-```js
-// ❌ BAD — leads to flaky, unreliable tests
-cy.wait(2000)
-cy.get('[data-cy="server-card"]').should('have.length', 6)
-```
-
-This fails on slow CI runners and wastes time on fast ones. It hides timing bugs instead of catching them.
-
-The correct approach:
-
-```js
-// ✅ GOOD — deterministic, resilient
-cy.intercept('GET', '/api/servers', { fixture: 'servers.json' }).as('getServers')
-cy.visit('/')
-cy.wait('@getServers') // Resolves the moment the real network event completes
-cy.get('[data-cy="server-card"]').should('have.length', 6)
-```
-
-`cy.wait('@alias')` is network-event-driven, not time-driven. This is the foundation of a non-flaky, CI-grade test suite.
-
----
-
 ## Project Structure
 
 ```
