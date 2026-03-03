@@ -1,6 +1,6 @@
 // ==========================================================
 // E2E Test Suite: Cloud Server Dashboard
-// Author: [Your Name] — Levelbuild Africa QA Proof of Work
+// Author: Misheck — QA Proof of Work
 // ==========================================================
 
 describe('Cloud Server Dashboard — E2E Suite', () => {
