@@ -2,8 +2,6 @@
 
 > End-to-end and component-level automation suite demonstrating production-grade QA engineering practices using Cypress and CI integration.
 
-![CI](https://github.com/Meshach-Zm/qa-demo/actions/workflows/cypress.yml/badge.svg)
-
 ---
 
 ## Overview
@@ -18,7 +16,7 @@ It highlights:
 - CI/CD integration with GitHub Actions
 - Cypress Cloud test recording and observability
 
-The goal is to showcase real-world automation practices beyond basic “happy path” testing.
+The goal is to showcase real-world automation practices beyond basic "happy path" testing.
 
 ---
 
@@ -38,9 +36,9 @@ The goal is to showcase real-world automation practices beyond basic “happy pa
 
 ---
 
-## Cypress Cloud Execution (CI Linked)
+## Cypress Cloud Execution
 
-Below is a successful CI run recorded in Cypress Cloud:
+Below is a successful test run recorded in Cypress Cloud:
 
 ![Cypress Cloud Dashboard](docs/cypress-cloud-dashboard.png)
 
@@ -52,8 +50,6 @@ Below is a successful CI run recorded in Cypress Cloud:
 - CI-linked commit tracking
 - Electron browser execution (Windows)
 - Test Replay available for debugging
-
-This demonstrates production-level concerns including API failure handling, deterministic mocking, and CI observability.
 
 ---
 
@@ -119,7 +115,7 @@ Component tests isolate the `server-card` Lit component to validate:
 
 - Rendering logic
 - Prop handling
-- Visual state behavior
+- Visual state behaviour
 
 This shift-left approach enables faster feedback and better defect isolation.
 
@@ -127,14 +123,7 @@ This shift-left approach enables faster feedback and better defect isolation.
 
 ## CI/CD Integration
 
-Tests run automatically via GitHub Actions on push.
-
-Pipeline includes:
-
-- Headless Cypress execution
-- Artifact recording
-- Cypress Cloud integration
-- Commit-linked run visibility
+A GitHub Actions pipeline is configured to run the full Cypress suite automatically on every push to main. The workflow file is located at `.github/workflows/cypress.yml`.
 
 ---
 
